@@ -149,7 +149,7 @@
 
 .main_description {
   width: 80%;
-  background-color: rgba(33, 33, 33, 0.5);
+  background-color: rgba(33, 33, 33, 0.3);
   border: 1px solid #333;
   border-radius: 5px;
   padding: 5px;
@@ -175,7 +175,7 @@
   gap: 5px;
 
   height: 150px;
-  background-color: rgba(33, 33, 33, 0.5);
+  background-color: rgba(33, 33, 33, 0.3);
   border: 1px solid #333;
   border-radius: 20px;
 }
@@ -195,6 +195,7 @@
 .card_description {
   margin-left: 55px;
   font-weight: lighter;
+  padding: 5px;
 }
 
 .card_button {
