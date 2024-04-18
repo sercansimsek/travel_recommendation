@@ -30,7 +30,7 @@
 
 .brand_name {
   font-style: italic;
-  font-size: bold;
+  font-weight: bold;
 
   color: #fff;
 }
@@ -105,7 +105,63 @@
   background-color: #333;
 }
 
-.clearBtn:hover, .searchBtn:hover {
+.clearBtn:hover,
+.searchBtn:hover {
+  background-color: orange;
+  color: #333;
+}
+
+/* main section styles */
+.main {
+  position: relative;
+  background-image: url(../images/hero_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 56px);
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 100px;
+
+  color: #fff;
+  margin-left: 100px;
+}
+
+.social_bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  left: 1%;
+  top: 40%;
+}
+
+.main_title {
+  font-size: 2rem;
+  margin-top: 75px;
+  letter-spacing: 1.5px;
+}
+
+.main_description {
+  width: 350px;
+}
+
+.mainBtn {
+  cursor: pointer;
+  padding: 20px;
+  color: orange;
+  background-color: #333;
+  width: max-content;
+  border: 1px solid #333;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.mainBtn:hover {
   background-color: orange;
   color: #333;
 }
