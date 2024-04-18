@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #333;
+  color: #fff;
+  height: max-content;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.brand_logo {
+  height: 40px;
+  width: 40px;
+}
+
+.brand_name {
+  font-style: italic;
+  font-size: bold;
+
+  color: #fff;
+}
+
+/* navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar_link:hover {
+  color: orange;
+}
+
+/* searchbar styles */
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #333;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #333;
+
+  padding: 2px 10px;
+  margin: 5px;
+}
+
+.input {
+  outline: none;
+  padding: 5px 10px;
+  margin-right: 100px;
+  border: none;
+  width: 100%;
+}
+
+.searchbar_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchbar_buttons img {
+  width: 40px;
+  height: 40px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: orange;
+  background-color: #333;
+}
+
+.clearBtn {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: orange;
+  background-color: #333;
+}
+
+.clearBtn:hover, .searchBtn:hover {
+  background-color: orange;
+  color: #333;
+}

@@ -3,28 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>S Travel</title>
+    <link rel="stylesheet" href="travel_recommendation.css" />
   </head>
   <body>
     <header class="header">
       <div class="brand">
-        <img src="" alt="" class="brand_logo" />
-        <span class="brand_name">S Travel</span>
+        <a href="#home"
+          ><img src="../images/logo-s.png" alt="logo" class="brand_logo"
+        /></a>
+        <a href="#home" style="text-decoration: none"
+          ><p class="brand_name">S Travel</p></a
+        >
       </div>
 
       <nav class="navbar">
         <a href="#home" class="navbar_link">Home</a>
         <a href="#about" class="navbar_link">About Us</a>
-        <a href="#contact" class="navbar_link">Contact</a>
+        <a href="#contact" class="navbar_link">Contact Us</a>
       </nav>
 
       <div class="searchbar">
-        <input type="text" placeholder="Enter a destination or keyword">
+        <div class="inputbar">
+          <input type="text" placeholder="Enter a destination or keyword" class="input"/>
+        </div>
 
         <div class="searchbar_buttons">
-          <img src="" alt="">
+          <img src="../images/look-up-svgrepo-com.svg" alt="search" />
+
+          <button class="searchBtn">Search</button>
+          <button class="clearBtn">Clear</button>
         </div>
       </div>
     </header>
+
+    <script src="travel_recommendation.js"></script>
   </body>
 </html>
