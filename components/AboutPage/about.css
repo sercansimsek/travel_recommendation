@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #333;
+  color: #fff;
+  height: max-content;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.brand_logo {
+  height: 40px;
+  width: 40px;
+}
+
+.brand_name {
+  font-style: italic;
+  font-weight: bold;
+
+  color: #fff;
+}
+
+/* navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar_link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar_link:hover {
+  color: orange;
+}
+
+/* searchbar styles */
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #333;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #333;
+
+  padding: 2px 10px;
+  margin: 5px;
+  visibility: hidden;
+}
+
+.input {
+  outline: none;
+  padding: 5px 10px;
+  margin-right: 100px;
+  border: none;
+  width: 100%;
+}
+
+.searchbar_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchbar_buttons img {
+  width: 40px;
+  height: 40px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: orange;
+  background-color: #333;
+}
+
+.clearBtn {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: orange;
+  background-color: #333;
+}
+
+.clearBtn:hover,
+.searchBtn:hover {
+  background-color: orange;
+  color: #333;
+}
+
+/* main section styles */
+.main {
+  position: relative;
+  background-image: url(../../images/hero_image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 56px);
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 100px;
+
+  color: #fff;
+  margin-left: 100px;
+}
+
+.social_bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  left: 1%;
+  top: 40%;
+}
+
+.main_title {
+  font-size: 2rem;
+  margin-top: 75px;
+  letter-spacing: 1.5px;
+}
+
+.main_description {
+  width: 80%;
+  background-color: rgba(33, 33, 33, 0.5);
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.main_team {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.member_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  height: 150px;
+  background-color: rgba(33, 33, 33, 0.5);
+  border: 1px solid #333;
+  border-radius: 20px;
+}
+
+.card_picture {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+.card_name {
+  margin-left: 55px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.card_description {
+  margin-left: 55px;
+  font-weight: lighter;
+}
+
+.card_button {
+  padding: 5px;
+  width: max-content;
+  margin: 0 auto;
+  border: 1px solid #333;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #333;
+  color: orange;
+}
