@@ -15,16 +15,16 @@
   <body>
     <header class="header">
       <div class="brand">
-        <a href="../components/HomePage/home.html"
+        <a href="./travel_recommendation.html"
           ><img src="../images/logo-s.png" alt="logo" class="brand_logo"
         /></a>
-        <a href="../components/HomePage/home.html" style="text-decoration: none"
+        <a href="./travel_recommendation.html" style="text-decoration: none"
           ><p class="brand_name">S Travel</p></a
         >
       </div>
 
       <nav class="navbar">
-        <a href="../components/HomePage/home.html" class="navbar_link">Home</a>
+        <a href="./travel_recommendation.html" class="navbar_link">Home</a>
         <a href="../components/AboutPage/about.html" class="navbar_link">About Us</a>
         <a href="../components/ContactPage/contact.html" class="navbar_link">Contact Us</a>
       </nav>
@@ -41,8 +41,8 @@
         <div class="searchbar_buttons">
           <img src="../images/look-up-svgrepo-com.svg" alt="search" />
 
-          <button class="searchBtn">Search</button>
-          <button class="clearBtn">Clear</button>
+          <button class="searchBtn" onclick="fetchData()">Search</button>
+          <button class="clearBtn" onclick="handleClear()">Clear</button>
         </div>
       </div>
     </header>
@@ -71,6 +71,8 @@
         </div>
         <button class="mainBtn">BOOK NOW</button>
       </div>
+
+      <div class="result"></div>
     </main>
 
     <script src="travel_recommendation.js"></script>

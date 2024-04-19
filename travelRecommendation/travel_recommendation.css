@@ -165,3 +165,12 @@
   background-color: orange;
   color: #333;
 }
+
+.result {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  color: #fff;
+}
