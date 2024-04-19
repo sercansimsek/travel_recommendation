@@ -114,7 +114,7 @@
 /* main section styles */
 .main {
   position: relative;
-  background-image: url(../images/hero_image.jpg);
+  background-image: url(./images/hero_image.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
