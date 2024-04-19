@@ -122,7 +122,7 @@
   height: calc(100vh - 56px);
 }
 
-.main_container {
+/* .main_container {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -130,7 +130,7 @@
 
   color: #fff;
   margin-left: 100px;
-}
+} */
 
 .social_bar {
   display: flex;
@@ -141,70 +141,64 @@
   top: 40%;
 }
 
-.main_title {
-  font-size: 2rem;
-  margin-top: 75px;
-  letter-spacing: 1.5px;
-}
-
-.main_description {
-  width: 80%;
-  background-color: rgba(33, 33, 33, 0.3);
-  border: 1px solid #333;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.main_team {
+.main_content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  height: 90vh;
 }
 
-.member_cards {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
-}
-
-.card {
-  position: relative;
+.main_info {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 50px;
+}
 
-  height: 150px;
-  background-color: rgba(33, 33, 33, 0.3);
+.main_title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.main_subtitle {
+  font-weight: normal;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* Form styles */
+.main_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
   border: 1px solid #333;
   border-radius: 20px;
+  background-color: rgba(33, 33, 33, .2);
+  padding: 20px;
+  width: 35%;
+  color: #fff;
 }
 
-.card_picture {
-  position: absolute;
-  left: 5%;
-  top: 5%;
-}
-
-.card_name {
-  margin-left: 55px;
-  margin-top: 40px;
-  font-weight: bold;
-}
-
-.card_description {
-  margin-left: 55px;
-  font-weight: lighter;
+input, textarea {
+  border: 1px solid #5c5b5b;
+  background-color: rgba(33, 33, 33, .2);
   padding: 5px;
+  border-radius: 5px;
 }
 
-.card_button {
+.submitBtn {
+  cursor: pointer;
   padding: 5px;
-  width: max-content;
-  margin: 0 auto;
+  color: orange;
+  background-color: #333;
   border: 1px solid #333;
   border-radius: 5px;
   font-weight: bold;
-  background-color: #333;
-  color: orange;
 }
+
+.submitBtn:hover {
+  color: #333;
+  background-color: orange;
+}
+
